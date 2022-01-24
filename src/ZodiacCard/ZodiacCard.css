@@ -1,0 +1,21 @@
+.zodiac-card {
+  width: 200px;
+  background-color: var(--color2);
+  margin: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  color: var(--color4);
+}
+
+.zodiac-card img {
+  width: 100px;
+}
+
+.zodiac-card .name {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Space and Astronomy';
+}
